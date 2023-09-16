@@ -5,6 +5,7 @@ function App() {
   return (
     <Switch>
       <Route exact path="/" component={MainPage} />
+      <Route exact path="/sitemap.xml" component={MainPage} />
     </Switch>
   )
 }
