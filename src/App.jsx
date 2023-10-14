@@ -1,12 +1,12 @@
 import { Route, Switch } from 'react-router-dom'
 import MainPage from './pages/MainPage/mainPage'
-import Second from './pages/secondPage/second'
+import ComandsUnix from './components/ComandsUnix/comandsUnix'
 
 function App() {
   return (
     <Switch>
       <Route exact path="/" component={MainPage} />
-      <Route exact path="/second" component={Second} />
+      <Route exact path="/comands-unix" component={ComandsUnix} />
     </Switch>
   )
 }
