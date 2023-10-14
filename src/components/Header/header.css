@@ -1,5 +1,5 @@
 .container_header {
-  position: relative;
+  position: fixed;
   display: flex;
   align-items: center;
   height: 200px;

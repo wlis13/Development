@@ -1,6 +1,6 @@
 .container_categories_learn {
   position: absolute;
-  top: 180px;
+  top: 00px;
   left: -15px;
   width: 13%;
   padding: 7px;
@@ -8,16 +8,17 @@
   border-bottom: 4px solid #555588;
   border-radius: 10px;
   padding-top: 40px;
+  height: 100%;
 }
 
 .header_categories_learn {
-  background-color: #555588;
-  border-radius: 5px;
   text-align: center;
   padding: 5px 10px;
-  color: white;
+  color: black;
   margin-left: 20px;
   margin-bottom: 10px;
+  border: 3px solid #555588;
+  border-radius: 5px;
 }
 
 .section_categories_learn {
